@@ -75,7 +75,7 @@ for bname in buildings_name:
 hou.node("../CONTROL").parm("houseNum").set(housesCount)
 hou.node("../CONTROL").parm("commercialNum").set(comCount)
 ```
-## Random asset assignment
+## 2) Random asset assignment
 
 ```ruby
 import random
