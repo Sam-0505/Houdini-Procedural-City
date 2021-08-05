@@ -1,6 +1,6 @@
 # Houdini_Procedural_City
 
-This is practice project to generate a city in houdini procedurally using Python. Some of the important aspects ,where python is used, are loading building assets as well as setting attributes.
+This is practice project to generate a city in houdini procedurally using Python. Some of the important aspects ,where python is used, are loading building assets as well as setting attributes. There are two types of areas available in the map, one is the commercial which will have commercial buildings and other is house, which will have residential buildings.
 
 NOTE: At many places, VEX or node based approach will be a better and faster approach but the intention of the project was to learn to implement things in houdini using python.
 
@@ -104,3 +104,6 @@ if len(points):
 for point in points:
     point.setAttribValue("id",random.randint(1,end))
 ```
+# Preview
+
+![](images/test.png)
